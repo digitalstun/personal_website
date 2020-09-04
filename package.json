@@ -4,7 +4,8 @@
   "description": "personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/digitalstun/personal_website/issues"
   },
-  "homepage": "https://github.com/digitalstun/personal_website#readme"
+  "homepage": "https://github.com/digitalstun/personal_website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
