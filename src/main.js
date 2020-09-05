@@ -1,5 +1,5 @@
 const express = require("express");
-const path = require('path');
+const path = require("path");
 
 const app = express();
 
@@ -10,12 +10,10 @@ app.use("/src", express.static("src"));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./index.html"));
 });
-
 // projects
-// app.get("/", (req, res) => {
-//   res.sendFile(path.join(__dirname, "./projects.html"));
-// });
-
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "./projects.html"));
+});
 // contact page
  app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./contact.html"));
