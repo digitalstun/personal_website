@@ -10,6 +10,12 @@ app.use("/src", express.static("src"));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./index.html"));
 });
+
+// projects
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "/src/projects.html"));
+});
+
 // contact page
  app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./contact.html"));
