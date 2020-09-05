@@ -8,15 +8,11 @@ body{
 }
 
 header.notFound{
-    background-image: url(/src/img/9.svg);
+    background-image: url(../img/9.svg);
     background-size: cover;
     background-position: center center; 
     height: 100vh; 
     width: 100vw;
-}
-
-div.hero{
-  margin-top: 50px;
 }
 
  h1.notFound{

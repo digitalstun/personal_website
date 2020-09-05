@@ -93131,7 +93131,7 @@ module.exports = require('./lib/express');
 var __dirname = "/home/digitalstun/development/personal_website/src";
 var express = require("express");
 
-var path = require('path');
+var path = require("path");
 
 var app = express(); // Middleware 
 
@@ -93141,10 +93141,10 @@ app.use("/src", express.static("src")); // navigation routes
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./index.html"));
 }); // projects
-// app.get("/", (req, res) => {
-//   res.sendFile(path.join(__dirname, "./projects.html"));
-// });
-// contact page
+
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "./projects.html"));
+}); // contact page
 
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "./contact.html"));
@@ -93187,7 +93187,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37557" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42625" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
