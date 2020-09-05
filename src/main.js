@@ -12,9 +12,9 @@ app.get("/", (req, res) => {
 });
 
 // projects
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "./projects.html"));
-});
+// app.get("/", (req, res) => {
+//   res.sendFile(path.join(__dirname, "./projects.html"));
+// });
 
 // contact page
  app.get("/", (req, res) => {
