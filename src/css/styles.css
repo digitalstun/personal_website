@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 body{
     margin:0;
@@ -11,10 +14,6 @@ body{
 div#wrapper{
   height: 100vh;
 }
-
-/* h1.top{
-  margin-top: 0px;
-} */
 
 h1,h3{
   margin-top: 0%;
@@ -33,6 +32,16 @@ div.spacer{
 
 div#recent{
   height: 100vh;
+}
+
+div.skills{
+  margin-top: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+h2.skillHeadline{
+  margin-top: 0;
 }
 
 p{
@@ -103,7 +112,7 @@ header.notFound{
 
     
     div#footer{
-      background-color: black;
+      background-color:#010302;
     }
 
     footer{

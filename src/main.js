@@ -1,6 +1,7 @@
+//dependencies
 const express = require("express");
 const path = require("path");
-
+//initialize application
 const app = express();
 
 // Middleware 
