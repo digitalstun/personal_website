@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal website</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../src/css/styles.css">
 </head>
 <body>
     <header>
-        <nav class="container">
+        <nav>
             <ul class="nav__links">
                 <li><a href="/src" >Home</a></li>
                 <li><a href="./projects.html" >Projects</a></li>
@@ -41,6 +42,24 @@
          <h2 class="scrollStart">scroll here</h2>
      </div>
 
+     <div class="skills">
+        <h2 class="skillHeadline">Skills</h2>
+
+        <div id="skillSet">
+
+            <ul>
+                <li>Javascript</li>
+                <li>Node</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
     
     <script src="./main.js"></script>
 </body>
@@ -48,7 +67,11 @@
 <div id="footer">
 
     <footer>
-        website created by.
+     <!--copyright info + dynamic year change-->
+     <div>
+        <div class="copyright"> &copy;<script>new Date().getFullYear()>2019&&document.write(new Date().getFullYear());</script> &nbsp; 
+           <a href="#" target="_blank">MrLafayette.Com </a> All rights reserved.</div>
+      </div>    
     </footer>
 </div>
 </html>
