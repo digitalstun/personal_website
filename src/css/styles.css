@@ -8,10 +8,23 @@ body{
     color: #cacaca;
 }
 
-h1{
+h1,h3{
   margin-top: 0%;
   margin-bottom: 0%;
-text-align: center;
+  text-align: center;
+}
+
+h2.scrollStart{
+  margin-top: 6%;
+  text-align: center;
+}
+
+div.spacer{
+  margin-top: 40px;
+}
+
+div#recent{
+  height: 100vh;
 }
 
 p{
