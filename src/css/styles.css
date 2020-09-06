@@ -8,6 +8,14 @@ body{
     color: #cacaca;
 }
 
+div#wrapper{
+  height: 100vh;
+}
+
+/* h1.top{
+  margin-top: 0px;
+} */
+
 h1,h3{
   margin-top: 0%;
   margin-bottom: 0%;
@@ -15,7 +23,7 @@ h1,h3{
 }
 
 h2.scrollStart{
-  margin-top: 6%;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -33,6 +41,10 @@ p{
   margin-top: 0%;
   text-align: center;
 }
+
+/* div.linkRecent{
+  margin-bottom: 20px;
+}  */
 
 header.notFound{
     background-image: url(../img/9.svg);
@@ -88,3 +100,14 @@ header.notFound{
   .nav__links li a:hover {
     transition: all 0.3s ease 0s;
     color :#0088a9}
+
+    
+    div#footer{
+      background-color: black;
+    }
+
+    footer{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
