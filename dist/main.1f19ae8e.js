@@ -93129,9 +93129,11 @@ removedMiddlewares.forEach(function (name) {
 module.exports = require('./lib/express');
 },{"./lib/express":"../node_modules/express/lib/express.js"}],"main.js":[function(require,module,exports) {
 var __dirname = "/home/digitalstun/development/personal_website/src";
+//dependencies
 var express = require("express");
 
-var path = require("path");
+var path = require("path"); //initialize application
+
 
 var app = express(); // Middleware 
 
@@ -93187,7 +93189,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39127" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42287" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

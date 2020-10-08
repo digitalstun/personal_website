@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal website</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.b61e60ae.css">
 <script src="/styles.b61e60ae.js"></script></head>
 <body>
     <header>
-        <nav class="container">
+        <nav>
             <ul class="nav__links">
                 <li><a href="/src">Home</a></li>
                 <li><a href="/projects.html">Projects</a></li>
@@ -18,15 +19,57 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div id="wrapper">
         <div id="hero">
-            <h1>I'm Randy <br>
+            <h1 class="top">I'm Randy <br>
                 a full stack web developer.</h1>
         </div>
-       <p>Leveraging Javascript and other technologies to deliver interactive websites and mobile applications.</p>
+       <p>Leveraging Javascript and other technologies to deliver fun and interactive web and mobile experiences. <br>
+        Whenever I'm not code wrangling I'm dad, director, music producer, avid learner, entrepreneur.</p>
+        <p class="emailMe">send me an <a href="mailto:randolphlafayette@gmail.com">e-mail</a> lets talk about your next project.</p>
+     
+
+    <div class="spacer"></div>
+     <div class="linkRecent">
+        <h3><a href="#recent">Recent Work</a></h3>
      </div>
+
+    </div>
+
+     <div id="recent">
+         <h2 class="scrollStart">scroll here</h2>
+     </div>
+
+     <div class="skills">
+        <h2 class="skillHeadline">Skills</h2>
+
+        <div id="skillSet">
+
+            <ul>
+                <li>Javascript</li>
+                <li>Node</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+
+            </ul>
+
+        </div>
+
+    </div>
 
     
     <script src="/main.1f19ae8e.js"></script>
 </body>
+
+<div id="footer">
+
+    <footer>
+     <!--copyright info + dynamic year change-->
+     <div>
+        <div class="copyright"> &copy;<script>new Date().getFullYear() > 2019 && document.write(new Date().getFullYear());</script> &nbsp; 
+           <a href="#" target="_blank">MrLafayette.Com </a> All rights reserved.</div>
+      </div>    
+    </footer>
+</div>
 </html>
